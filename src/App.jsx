@@ -1,10 +1,10 @@
-import "./App.css";
-import { TodoList } from "./components/ToDoList";
+import "./index.css";
+import Index from "./components/Index";
 
 const App = () => {
   return (
     <div>
-      <TodoList />
+      <Index />
     </div>
   );
 };

@@ -12,3 +12,29 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5efe8;
+  border: #9caf88 3px solid;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  color: #9caf88;
+  font-style: italic;
+}
+
+button {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border-style: none;
+  background-color: #9caf88;
+  height: 3rem;
+  width: 7rem;
+  font-size: 1rem;
+}
